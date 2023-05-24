@@ -6,7 +6,7 @@ In this project, we have used different machine-learning models on a challenging
 
 On the other end, IEEE-CIS works across a variety of AI and machine learning areas, including deep neural networks, fuzzy systems, evolutionary computation, and swarm intelligence. They’re partnering with the world’s leading payment service company, Vesta Corporation, seeking the best solutions for the fraud prevention industry.
 
-![](images/demo.jp)
+![](images/demo.jpg)
 
 ## Goal
 
@@ -14,7 +14,7 @@ In this project, we are predicting if an online transaction is fraudulent or not
 
 ## Approach
 
-This work uses the dataset provided by Vesta Corporation through IEEE-CIS Fraud Detection Prediction Challenge on Kaggle. The complete dataset was provided in 2 separate tables named Transaction table and Identity table. These tables were joined to create a final training and testing dataset having a total of around 1 million records and 434 input features. Several data pre-processing steps like missing value imputation, dimensionality reduction, categorical variable encodings, additional feature creation, etc. were implemented to create a processed dataset that would help us learn a high-performing unbiased machine learning classifier. Several supervised machine learning models (Logistic Regression, KNN, Decision Tree, Random Forest, XGBoost) were chosen as a candidate to help predict whether transactions will be fraudulent or not.
+This work uses the dataset provided by Vesta Corporation through [IEEE-CIS Fraud Detection Prediction Challenge](https://www.kaggle.com/c/ieee-fraud-detection) on Kaggle. The complete dataset was provided in 2 separate tables named Transaction table and Identity table. These tables were joined to create a final training and testing dataset having a total of around 1 million records and 434 input features. Several data pre-processing steps like missing value imputation, dimensionality reduction, categorical variable encodings, additional feature creation, etc. were implemented to create a processed dataset that would help us learn a high-performing unbiased machine learning classifier. Several supervised machine learning models (Logistic Regression, KNN, Decision Tree, Random Forest, XGBoost) were chosen as a candidate to help predict whether transactions will be fraudulent or not.
 
 ![](images/approach_part1.jpg)
 
@@ -24,4 +24,4 @@ This work uses the dataset provided by Vesta Corporation through IEEE-CIS Fraud 
 
 Overall, among all the supervised machine learning classifiers XGBoost and Random Forest had the best ROC AUC on the test set. Featuring engineering helped in reducing overfitting and noise, thus improving the prediction and also reducing computation time.
 
-![](images/result)
+![](images/result.jpg)
